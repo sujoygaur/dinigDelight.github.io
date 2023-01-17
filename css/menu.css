@@ -1,0 +1,355 @@
+body{
+    box-sizing: 0;
+    margin: 0;
+}
+.nav-div{
+    position: absolute;
+    top: 2rem;
+    width: 100%;
+    color: #222;
+    background: #00000080;
+    position: fixed;
+    
+}
+.nav_element:hover{
+    background-color: gold;
+}
+.active{
+    background-color: gold;
+}
+.nav_element{
+    font-size: 1rem;
+}
+.nav-bar{
+    
+    margin-left: 22rem;
+}
+.logo{
+    z-index: 1;
+    width: 12rem;
+    color: #222;
+    height: 10rem;
+    background: #00000080;
+    position: absolute;
+    left: 2rem;
+    top: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    position: fixed;
+    
+}
+.logo_text{
+    color:gold;
+    font-size: 1.3rem;
+    font-weight: 800;
+}
+.logo_para{
+    color:gold;
+    font-size: 1rem;
+}
+.order_button{
+    margin-left: 18rem;
+}
+.footer{
+    width: 100%;
+    height:auto;
+    background-color:#262626;
+}
+.footer_container{
+    padding-top: 5rem;
+    width: 85%;
+    height:auto;
+    /* background-color:green; */
+    margin: 0 auto;
+    display: flex;
+}
+.image_footer{
+        width: 25%;
+        height: 300px;
+        /* background-color: hotpink; */
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        color:gold;
+}
+.image_footer h6{
+    font-size: 2rem;
+    font-weight: 600;
+}
+
+.footer_list_1{
+    width: 25%;
+    height: auto;
+    /* background-color: teal; */
+    
+}
+.footer_list_1 li{
+    list-style: none;
+}
+.footer_list_1 li a{
+    text-decoration:none ;
+    color: darkgray;
+
+}
+.footer_list_1 li a:hover{
+    color: gold;
+}
+.footer_list_2 li{
+    list-style: none;
+}
+.footer_list_2 li a{
+    text-decoration:none ;
+    color: darkgray;
+
+}
+.footer_list_2 li a:hover{
+    color: gold;
+}
+.footer_list_3 li{
+    list-style: none;
+}
+.footer_list_3 li a{
+    text-decoration:none ;
+    color: darkgray;
+
+}
+.footer_list_3 li a:hover{
+    color: gold;
+}
+.footer_list_2{
+    width: 25%;
+    height: auto;
+    /* background-color:red; */
+}
+.footer_list_3{
+    width: 25%;
+    height: auto;
+    /* background-color:cyan; */
+}
+.footer_list_1,.footer_list_2,.footer_list_3{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #fff;
+}
+.copyright{
+    width: 85%;
+    margin: 0 auto;
+    color: #fff;
+    padding-top: 1rem;
+    padding-bottom: 3rem;
+}
+
+/* hamburger bar */
+
+#menu{
+    width: 35px;
+    height: 30px;
+    margin: 25px 0 0px 20px;
+    cursor: pointer;
+    float: right;
+   
+}
+.bar{
+    height: 5px;
+    width: 100%;
+    background-color:chocolate;
+    display: block;
+    border-radius: 5px;
+    transition: 0.2s ease;
+}
+/* three lines of hamburger bar */
+#bar1{
+    transform: translateY(-4px);
+}
+#bar3{
+    transform: translateY(4px);
+}
+.change .bar{
+    background-color:chocolate;
+}
+.change #bar1{
+    transform: translateY(4px) rotatez(-45deg);
+}
+.change #bar3{
+    transform: translateY(-6px) rotatez(45deg);
+}
+.change #bar2{
+    opacity:0;
+}
+#menu-bar{
+    padding-right: 20px;
+    display: none;
+    height: 60px;
+    width: 100vw;
+    background-color: gold;
+    float: right;
+    position: fixed;
+     top: 0;
+    display: none;
+    z-index: 10;
+    
+    
+}
+.navigation li a{
+    color: chocolate;
+    text-decoration: none;
+}
+.navigation li{
+
+    list-style: none;
+    padding: 10px;
+    font-size:25px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+
+}
+
+.navigation{
+    height: 100vh;
+    transition: 0.2s ease;
+    display: none;
+    float: left;
+    width: 110%;
+    background-color:#fff;
+    z-index: 10;
+    padding-top: 5rem;
+    
+}
+.navigation li a:hover{
+    font-weight: bolder;
+}
+ .change{
+    display: block;
+}
+
+.footer-form-toggle{
+    position: fixed;;
+    right: 30px;
+    bottom: 20px;
+    width: 60px;
+    height: 60px;
+    background-color: green;
+    border-radius:50%;
+    text-align:center;
+    cursor: pointer;
+}
+.footer-form-toggle .fa{
+    color:white;
+    font-size: 35px;
+    line-height: 55px;
+}
+.menu_photo{
+    width:100%; 
+    height: 600px; 
+    background: url('../images/restaurant-690569_1920.jpg');
+    background-size: cover;
+    background-position: center;
+}
+.menu_content{
+    width: 75%;
+    margin: 0 auto;
+    height: auto;
+    display: flex;
+    padding-bottom: 4rem;
+}
+.menu_pic{
+    width: 50%;
+    height: 400px;
+    background-color: teal;
+}
+.menu_pic img{
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+}
+.menu_maincontent{
+    width: 50%;
+    height: 400px;
+    background-color:#fdf8f1;
+   overflow-y: scroll;
+
+}
+.heading_menu{
+    padding-left: 1rem;
+    color:#c97f36;
+    padding-top: 1rem;
+    font-family: 'Dancing Script', cursive;
+
+}
+.menu_maincontent ul{
+    list-style: none;
+}
+.menu_maincontent ul li{
+   color: #666;
+   font-size: 1.1rem;
+   padding-bottom: 0.3rem;
+   padding-top: 0.3rem;
+   border-bottom: 1px dotted gray;
+}
+@media only screen and (max-width:1100px){
+    #menu-bar{
+        display: block;
+    }
+        .navbar{
+            display: none;
+        }
+    }
+
+@media only screen and (max-width: 600px) {
+    .pic ,.season_items,.black_inside,.inner_image_galery,.image_child-2,.map,.footer_container,.menu_content{
+        flex-direction: column;
+    }
+    .pic_1 ,.pic_2,.season_item1,.season_item2,.season_item3,.black_item-1,.black_part_2,.black_part_1,.inner_image_galery1,.inner_image_galery2
+    ,.image_sub_child-1,.image_sub_child-2,.contains-map,.contains-address,.image_footer,.footer_list_1,.footer_list_2
+    ,.footer_list_3,.menu_pic,.menu_maincontent
+    {
+        width: 100%;
+    }
+    .season_item1,.season_item2,.season_item3,.image_sub_child-2,.inner_image_galery2{
+        margin-top: 1rem;
+    }
+    .black_item-1{
+     height: fit-content;
+     border-top-left-radius:0 ;
+    border-bottom-left-radius:0 ;
+    }
+    .black_item_image img{
+        border-radius: 0;
+        height: auto;
+    }
+    .image_sub_child-2{
+        margin-left: 0;}
+   .inner_image_galery2,.carousel-item{
+        height: 300px;
+    }
+    .explore{
+        height:200px;
+    }
+    .footer_list_3 li{
+margin-left: -5rem;
+    }
+    .footer_list_1 li{
+margin-left: -2rem;
+    }
+    .img-aera{
+        left: 38%;
+    }
+    .logo{
+        display: none;
+    }
+    .nav-div{
+        display: none;
+    }
+    .heading_pic h1{
+        font-size: 2rem;
+        font-weight: 500;
+    }
+
+
+}

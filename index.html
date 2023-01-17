@@ -1,0 +1,488 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title> Dining Delight Restaurant</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+  <link rel="stylesheet" href="./css/index.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap" rel="stylesheet">
+</head>
+
+<body>
+  <div id="menu-bar">
+
+    <div id="menu" onclick="onclickmenu()">
+        <div id="bar1" class="bar"></div>
+        <div id="bar2" class="bar"></div>
+        <div id="bar3" class="bar"></div>
+    </div>
+    <!-- <div id="logo"><img src="gr.1.jpg" alt=""></div> -->
+    <ul class="nav" id="nav">
+        <li><a href="#" target=" blank">Home </a></li>
+        <li> <a href="menu.html" target="blank"> Our Menu</a></li>
+
+        <li> <a href="franchise.html" target="blank"> Franchise Enquiry </a> </li>
+
+        <li> <a href="presense.html" target=" blank"> Our Presence </a></li>
+        <li> <a href="Contact.html" target=" blank"> Contact Us </a></li>
+        <li> <a href="login.html" target=" blank"> Sign in </a></li>
+        <li> <a href="#" target=" blank"> Order Online </a></li>
+      
+    </ul>
+</div>
+  <section class="upper">
+    <div class="container-fluid logo">
+      <a class="navbar-brand" href="#">
+        <img src="./images/lion-159027_1280.png" alt="" width="100" height="80" class="d-inline-block align-text-top">
+      </a>
+      <span class="logo_text"> Dining Delight</span>
+      <p class="logo_para">True Flavour of India</p>
+    </div>
+    
+    <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+          aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+          aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+          aria-label="Slide 3"></button>
+      </div>
+      <div class="carousel-inner">
+        <div class="carousel-item active" style="background-size: cover;">
+          <img src="./images/chicken-2451482_1920.jpg" class="d-block w-100 " height="600px" alt="...">
+          <div class="carousel-caption d-none d-md-block">
+            <div class="card card-crosel" style="width: 15rem;">
+              <div class="card-body card-crosel_body">
+                <h2 class="card-title">Register Now</h2>
+                <h3 style="color: #fff;">AND</h3>
+                <h4 style="color: gold;">Avail 10% off</h4>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="./images/lasagna-3344994_1920.jpg" class="d-block w-100 " height="600px" alt="...">
+          <div class="carousel-caption d-none d-md-block">
+            <div class="card-heading-ami">
+
+              <h1>Welcome To the </h1>
+              <h1 style="color: gold;"> Dining Delight</h1>
+              <h3>True Flavour of India</h3>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="carousel-item">
+      <img src="./images/cream-puff-2092962_1920.jpg" class="d-block w-100 " height="600px" alt="...">
+      <div class="carousel-caption d-none d-md-block">
+        <div class="card card-crosel" style="width: 15rem;">
+          <div class="card-body card-crosel_body">
+            <h2 class="card-title">Register Now</h2>
+            <h3 style="color: #fff;">AND</h3>
+            <h4 style="color: gold;">Avail 10% off</h4>
+          </div>
+        </div>
+      </div>
+    </div>
+    </div>
+    </div>
+
+    <nav class="navbar navbar-expand-lg navbar-dark nav-div ">
+      <div class="container-fluid nav-bar">
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active nav_element" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link nav_element" href="menu.html">Our Menu</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link nav_element" href="franchise.html">Franchise Enquiry</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link nav_element" href="presense.html">Our Presence</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link nav_element" href="Contact.html">Contact Us</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link nav_element" href="login.html">Log in</a>
+            </li>
+
+            <button class="btn btn-outline-warning order_button">Order online</button>
+          </ul>
+
+        </div>
+      </div>
+    </nav>
+  </section>
+
+  <div class="side_bar">
+    <ul>
+      <li><a href="#"></a><i class="fa fa-mobile" style="color: gold;"></i></li>
+      <li><a href="#"></a><i class="fa fa-map-marker" style="color: gold;"></i></li>
+      <li><a href="#"></a><i class="fa fa-facebook" style="color: gold;"></i></li>
+      <li><a href="#"></a><i class="fa fa-instagram" style="color: gold;"></i></li>
+    </ul>
+  </div>
+  <div class="photo_ourstory">
+    <div class="heading_pic">
+      <h1>Sat Sri Akal</h1>
+    </div>
+    <div class="pic">
+      <div class="pic_1">
+        <img src="./images/PngItem_1018485.png" alt="">
+      </div>
+      <div class="pic_2">
+        <h1>Our story</h1>
+        <p>Known across the country for its delectable Frontier, Punjabi & Lucknowi food, PIND BALLUCHI is a name that
+          spells exhilaration and satisfaction. With over two decades of journey in the hospitality industry, the brand
+          has made a mark for itself. Owning 5+ National Awards to its credit & 40+ Restaurants in over 15 states, PIND
+          BALLUCHI surely leaves an everlasting impression on one’s mind and heart whenever one steps in.
+        <p>
+
+        <p>Right from the holistic experience of Punjab’s soulful cuisines to the Village Themed Ambience, the
+          restaurants are ideal hotspots if one chooses to dine in a place that transports one to the quintessential
+          Pind in Punjab. Our dishes are curated with the finest of ingredients, fresh herbs & spices, with great
+          attention paid to the recipes to evolve authentic flavours of the cuisine. Laden with culture, tradition and
+          age-old warmth of Indian hospitality, PIN</p>
+      </div>
+    </div>
+    <div class="heading_pic">
+      <h1>Seasons Special</h1>
+    </div>
+
+    <div class="season_items">
+      <div class="season_item1">
+      </div>
+      <div class="season_item2">
+      </div>
+      <div class="season_item3">
+      </div>
+    </div>
+  </div>
+  <div class="black-items">
+    <h1 class="black_heading">Culinary Delights- Chef’s Special</h1>
+    <div class="black_inside">
+
+      <div class="black_part_1">
+        <div class="black-wrap">
+          <div class="black_item-1">
+            <div class="black_item_image">
+              <img src="./images/cream-puff-2092962_1920.jpg" alt="">
+              <div class="black_item_text">
+                <h3>Dahi De Kebab</h3>
+                <p>Hung Curd mixed with spices wrapped with a thin layer of bread and fried</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="black-wrap">
+          <div class="black_item-1">
+            <div class="black_item_image">
+              <img src="./images/udon-noodles-967080_1920.jpg" alt="">
+              <div class="black_item_text">
+                <h3>Lasooni Tangri</h3>
+                <p>HA robust preparation of grilled chicken flavored with garlic with chef’s secret spices</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="black-wrap">
+          <div class="black_item-1">
+            <div class="black_item_image">
+              <img src="./images/veg-dal-makhani-500x500.png" alt="">
+              <div class="black_item_text">
+                <h3>Dal Balluchi</h3>
+                <p>Whole black lentil cooked overnight with butter and cream</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="black-wrap">
+          <div class="black_item-1">
+            <div class="black_item_image">
+              <img src="./images/download.jpg" alt="">
+              <div class="black_item_text">
+                <h3>Dhaba Meat</h3>
+                <p>A mild spiced mutton curry cooked in a traditional home style gravy</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="black_part_2">
+
+        <div class="black-wrap">
+          <div class="black_item-1">
+            <div class="black_item_image">
+              <img src="./images/chicken-2451482_1920.jpg" alt="">
+              <div class="black_item_text">
+                <h3>Dhaniya Murgh Curry</h3>
+                <p>Chicken cooked in coriander cooked gravy</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="black-wrap">
+          <div class="black_item-1">
+            <div class="black_item_image">
+              <img src="./images/dish-4943028_1920.jpg" alt="">
+              <div class="black_item_text">
+                <h3>Paneer Tikka Shashlik</h3>
+                <p>Cubes of fresh cottage cheese marinated with chef's special and cooked in tandoo</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="black-wrap">
+          <div class="black_item-1">
+            <div class="black_item_image">
+              <img src="./images/mushroom-5475042_1920.jpg" alt="">
+              <div class="black_item_text">
+                <h3>Mushroom Kurkure</h3>
+                <p>Batter - fried mushroom filled with cheese and khoya.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="black-wrap">
+          <div class="black_item-1">
+            <div class="black_item_image">
+              <img src="./images/food-712665_1920.jpg" alt="">
+              <div class="black_item_text">
+                <h3>Fish Amritsari</h3>
+                <p>Crispy batter fried fresh water fish cubes marianted with citrus juice and spices</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="image_gallery">
+    <div class="heading_pic">
+      <h1>Image Gallery</h1>
+    </div>
+
+    <div class="inner_image_galery">
+
+      <div class="inner_image_galery1">
+        <div class="image_child-1"> </div>
+        <div class="image_child-2">
+          <div class="image_sub_child-1"> </div>
+          <div class="image_sub_child-2"> </div>
+        </div>
+
+      </div>
+      <div class="inner_image_galery2">
+      </div>
+    </div>
+  </div>
+
+
+  <div class="explore">
+    <div class="heading_pic">
+      <h1>Explore Our Tasteful Menu</h1>
+    </div>
+    <div class="buttovdiv">
+
+      <button>Explore</button>
+    </div>
+
+  </div>
+
+
+
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12">
+        <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+          <div class="carousel-indicators carousel-indicatorss"> 
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
+              aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+              aria-label="Slide 2"></button>
+          </div>
+          <div class="carousel-inner">
+
+            <div class="carousel-item active">
+              <div class="row">
+                <div class="col-md-4">
+                  <div class="single-box">
+                    <div class="img-aera">
+                      <img src="./images/model-4668350_1920.jpg" width="100%" height="100%" alt="">
+                    </div>
+                    <div class="img-text">
+                      <h2>Gul Mehra</h2>
+                      
+                        <p>My go to place for every family dinner! The starters (veg/non-veg) are all mouth watering. The main course and the variety of available food options make it a perfect place for authentic Punjabi dishes!</p>
+                      
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-4">
+                  <div class="single-box">
+                    <div class="img-aera">
+                      <img src="./images/indian-4922226_1920.jpg" width="100%" height="100%" alt="">
+                    </div>
+                    <div class="img-text">
+                      <h2>Akash Jaiswal</h2>
+                      <p>Always the best taste where ever I go for pind balluchi . No disappointment at all . Best biryani, best chicken, best naan it really gives the feel of North and regenerates taste to the soul.</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-4">
+                  <div class="single-box">
+                    <div class="img-aera">
+                      <img src="./images/model-5073991_1920.jpg" width="100%" height="100%" alt="">
+                    </div>
+                    <div class="img-text">
+                      <h2>Tanya Jangra</h2>
+                      <p>&nbsp;Ambience here is very good. Service here is very good and the food was amazing. A perfect place to have nice dinner or lunch with your friend or family</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+            </div>
+
+            <div class="carousel-item ">
+              <div class="row">
+                <div class="col-md-4">
+                  <div class="single-box">
+                    <div class="img-aera">
+                      <img src="./images/selfie-4248870_1920.jpg" width="100%" height="100%" alt="">
+                    </div>
+                    <div class="img-text">
+                      <h2>Aman mishra</h2>
+                      <p>Always the best taste where ever I go for pind balluchi . No disappointment at all . Best biryani, best chicken, best naan it really gives the feel of North and regenerates taste to the soul.</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-4">
+                  <div class="single-box">
+                    <div class="img-aera">
+                      <img src="./images/model-5576784_1920.jpg" width="100%" height="100%" alt="">
+                    </div>
+                    <div class="img-text">
+                      <h2>Minakshi Pharswal</h2>
+                      <p>We went there for a family dinner. I was worried about whether they will be able to accommodate&nbsp;25-30 people but it went flawlessly. The staff members were very polite and took our order which was huge without any issue.&nbsp;</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-4">
+                  <div class="single-box">
+                    <div class="img-aera">
+                      <img src="./images/people-3249045_1920.jpg" width="100%" height="100%" alt="">
+                    </div>
+                    <div class="img-text">
+                      <h2>Akansha Singh</h2>
+                      <p>&nbsp;Ambience here is very good. Service here is very good and the food was amazing. A perfect place to have nice dinner or lunch with your friend or family</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+            </div>
+
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="map">
+    <div class="contains-map">
+      <iframe
+        src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d1339.2868010349046!2d77.92955242302875!3d27.20292887163497!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sin!4v1622276260988!5m2!1sen!2sin"
+        width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+    </div>
+    <div class=" contains-address">
+      <h1 classs="heading_pic">Corporate Office</h1>
+      
+      <h4> <i class="fa fa-map-marker" aria-hidden="true"></i>F-45, South City 1, Near Unitech Tower, <br>
+        Gurugram- 122001, Haryana, India <br>
+        Timing (10am to 7pm), Monday to Saturday</h4>
+        
+        <h3 > <i class="fa fa-envelope-o" aria-hidden="true"></i> feedback@diningdelight.com</h3>
+        <h3><i class="fa fa-phone" aria-hidden="true"></i> 0124-4830400</h3>
+    </div>
+  </div>
+  <div class="footer">
+    <div class="footer_container">
+
+      <div class="image_footer">
+        <img src="./images/lion-159027_1280.png" width="60%" height="60%" alt="">
+        <h6>Dining Delight</h6>
+         <p> True Flavour of India</p>
+      </div>
+      <div class="footer_list_1">
+        <h3>
+          OUR SERVICES
+        </h3>
+        <ul>
+       <li><a href="">About us </a></li>
+       <li><a href="">Our Menu</a></li>
+       <li><a href="">Franchise Query</a></li>
+       <li><a href="">Media</a></li>
+       <li><a href="">Career</a></li>
+       <li><a href="">Contact us</a></li>
+        </ul>
+      </div>
+      <div class="footer_list_2">
+        <h3>
+          USEFUL LINKS
+        </h3>
+        <ul>
+          <li><a href="">Policies </a></li>
+          <li><a href="">Terms and Conditions</a></li>
+          <li><a href="">Disclaimer</a></li>
+         
+           </ul>
+      </div>
+      <div class="footer_list_3">
+        <h3>
+          FOLLOW US
+        </h3>
+        <ul>
+          <li><a href="">Facebook </a></li>
+          <li><a href="">Twitter</a></li>
+          <li><a href="">Instagram</a></li>
+         
+           </ul>
+      </div>
+    
+    </div>
+    <hr style="color: beige; width: 85%; margin: 0 auto;">
+ <h6 class="copyright">&#169; 2021. Designed by Sujoy Gaur</h6>
+  </div>
+
+  <div class="footer-form-toggle">
+    <a href="https://wa.me/8077143739" target="blank"> <i class="fa fa-whatsapp"></i> </a>
+
+</div>
+ 
+</body>
+  <script>function onclickmenu(){
+    document.getElementById("menu").classList.toggle("change");
+    document.getElementById("nav").classList.toggle("change");  
+    // document.getElementsById("menu-bg").classList.toggle("change-bg");
+
+  }</script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js"
+  integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
+
+</html>

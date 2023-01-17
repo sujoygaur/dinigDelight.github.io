@@ -1,0 +1,62 @@
+.login_photo{
+    width:100%; 
+    height: 600px; 
+    background: url('../images/dinner-table-444434_1920.jpg');
+    background-size: cover;
+    background-position: center;
+
+}
+.background_forms{
+    width: 100%;
+    height: auto;
+    background: url('https://www.pindballuchi.com/images/about-bg.jpg');
+}
+.con_forms{
+    width: 85%;
+    margin: 0 auto;
+    height: auto;
+   
+    display: flex;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+
+}
+.login_form{
+    color: #5f3b04;
+    width: 50%;
+    height:auto;
+    background-color: #e4a94c ;
+    padding-bottom: 2rem;
+}
+.sign_form{
+    color: #5f3b04;
+    width: 50%;
+    height: auto;
+    background-color: #e4a94c ;
+    padding-bottom: 2rem;
+    margin-left: 2rem;
+}
+.form_login_con{
+    width: 85%;
+    margin: 0 auto;
+}
+.buttons{
+    display: flex;
+    flex-direction: column;
+}
+button{
+    margin-top: 1rem;
+
+}
+@media only screen and (max-width: 600px) {
+    .con_forms{
+        flex-direction: column;
+    }
+    .login_form,.sign_form{
+        width: 100%;
+    }
+    .sign_form{
+        margin-left: 0;
+        margin-top: 2rem;
+    }
+}

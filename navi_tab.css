@@ -1,0 +1,273 @@
+*{
+    box-sizing: 0;
+    margin: 0;
+    padding: 0;
+}
+.con{
+    width:100%;
+   min-height:  600px;
+   max-height: auto;
+   background: url('./lake-1802337_1920.jpg');
+   background-size: cover;
+   background-origin: content-box;
+   background-position: center;
+   margin-bottom: 2rem;
+}
+
+
+.tabs {
+    position:absolute;
+    top:45%;
+    left:50%;
+    transform:translate(-50%,-50%);
+    width:85%;
+    margin: 0 auto;
+    min-height: 400px;
+    max-height: auto;
+    background:#fff;
+    padding:20px 30px;
+    overflow:hidden;
+    border-radius:10px;
+  }
+  .tabs .tab-header {
+   
+    height:60px;
+    display:flex;
+    align-items:center;
+  }
+  .tabs .tab-header > div {
+ 
+    width:calc(100% / 6);
+    text-align:center;
+    color:#888;
+    font-weight:600;
+    cursor:pointer;
+    font-size:14px;
+    text-transform:uppercase;
+    outline:none;
+  
+  }
+  .tabs .tab-header > div > i {
+    display:block;
+    margin-bottom:5px;
+   
+  }
+  .tabs .tab-header > div.active {
+    color:#0a438b;
+  }
+  .tabs .tab-indicator {
+    position:relative;
+    width:calc(100% / 6);
+    height:3px;
+    background:#0a438b;
+    left:0px;
+    border-radius:5px;
+    transition:all 500ms ease-in-out;
+  }
+  .tabs .tab-body {
+    position:relative;
+    height:calc(100% - 60px);
+    /* padding:10px 5px; */
+    
+  }
+  .tabs .tab-body > div {
+    position:absolute;
+    top:-200%;
+    opacity:0;
+    transform:scale(0.9);
+    transition:opacity 500ms ease-in-out 0ms,
+      transform 500ms ease-in-out 0ms;
+    
+  }
+  .tabs .tab-body > div.active {
+    top:0px;
+    opacity:1;
+    transform:scale(1);
+    width: 100%;
+    padding-bottom: 1rem;
+   
+  }
+
+  .section-1{
+    display: flex;
+    width: 100%;
+   
+  }
+  .section-1_1{
+    width: 40%; 
+    height: 3.8rem; 
+    border-radius: 10px;
+    /* background-color: darkblue; */
+  }
+  .section-1_2{
+    width: 30%;
+    border-radius: 10px;
+    height: 3.8rem; 
+  }
+  .date{
+     width:50%;
+    display: flex;
+
+  }
+  .section-1_3{
+width: 45%;
+height: 3.8rem; 
+margin: 0 0.5rem;
+border-radius: 10px;
+  }
+  .section-2,.section-3{
+    margin-top: 1.5rem;
+  }
+  .button_nav{
+    padding-top: 1rem;
+      margin-top: 1.5rem;
+      width: 100%;
+     display: flex;
+     justify-content: center;
+
+  }
+  .button-1{
+    background-color: #0a438b;
+     color: #fff;
+      width: 20%; 
+      border-radius: 10px;
+  }
+  .fli-going{
+   
+    width: 40%; height:3.8rem; border-radius: 10px;
+    
+  } 
+  .arrow{
+    width: 4%;
+    border-radius: 50%;
+  }
+  .car-l,.car-g, .car-date-1{
+    width: 50%; height: 3.8rem; border-radius: 10px;
+  }
+  .car-g{
+    margin-left: 1rem;
+  }
+  .car-sec{
+    width: 100%;
+  }
+  .car-date,.car-times{
+    display: flex;
+    width: 50%;
+  
+  }
+  .car-date-1_1{
+    margin-left:1rem;
+  }
+  .btn-2:hover{
+    color: #0a438b;
+    background-color:honeydew;
+  }
+  .btn-drop{
+    float: right;
+    color: #0a438b;
+    margin-left: 20px;
+  }
+  .car-sec{
+    margin-top: 1rem;
+  }
+  .button_nav_1{
+    /* padding-top: 1rem; */
+      margin-top: -1rem;
+      width: 100%;
+     display: flex;
+     justify-content: center;
+  }
+
+  .date-pack{
+    width: 50%; height: 3.8rem; margin-left: 20px; border-radius: 10px;
+  }
+  .navi-leaving{
+    width: 70%;
+    height: 3.8rem;
+    border-radius: 10px;
+  }
+  .navi-date{
+    width: 50%; height:3.8rem; margin-left: 20px; border-radius: 10px;
+  }
+  
+  .btn-3{
+    color: #fff;
+    background-color: #0a438b;
+     border-radius: 20px;
+  }
+  .section-1_2{
+width: 50%;
+  }
+  
+  @media(max-width:1100px )and (min-width:800px){
+    .tabs{top: 20%;
+    }
+  }
+  @media(max-width:780px){
+    .tabs{top: 30%;
+    }
+  }
+
+  @media(max-width:600px) {
+      html{
+          font-size: 80%;
+      }
+    .con{
+        height: auto;
+    }
+    .tabs{
+        top: 45%;
+        height:500px;
+        width: 100%;
+      }
+      .ico{
+        overflow-x: scroll;
+      }
+      .ico::-webkit-scrollbar {
+        display: none;
+      }
+      .tab-header{
+      width: 160%;
+    }
+    .tab-indicator{
+     display: none;
+    }
+    .section-1{
+        flex-direction:column;
+    }
+    .section-1_1,.section-1_2,.date{
+        width: 100%;
+        margin: .5rem 0;
+        
+    }
+    .fli-going,.car-g,.button_nav_1{
+      margin-top: .5rem;
+    }
+    .car-g,.car-date-1_1,.date-pack,.navi-date{
+      margin-left: 0;
+    }
+    .arrow{
+      width: 10%;
+      margin-left: 80%;
+      transform: rotate(90deg);
+      height: 20%;
+    }
+    .button-1,.fli-going,.car-l,.car-g,.car-date,.car-times{
+        width: 100%;
+    }
+    
+
+    
+  }
+
+ 
+  @media(max-width:300px){
+    .tabs{
+      top: 60%;
+      height:550px;
+      width: 100%;
+  }
+  .tab-header{
+    width: 180%;
+  }
+  }

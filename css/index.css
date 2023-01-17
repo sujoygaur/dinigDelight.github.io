@@ -1,0 +1,664 @@
+body{
+    box-sizing: 0;
+    margin: 0;
+}
+.nav-div{
+    position: absolute;
+    top: 2rem;
+    width: 100%;
+    color: #222;
+    background: #00000080;
+    position: fixed;
+    
+}
+.nav_element:hover{
+    background-color: gold;
+}
+.active{
+    background-color: gold;
+}
+.nav_element{
+    font-size: 1rem;
+}
+.nav-bar{
+    
+    margin-left: 22rem;
+}
+.logo{
+    z-index: 1;
+    width: 12rem;
+    color: #222;
+    height: 10rem;
+    background: #00000080;
+    position: absolute;
+    left: 2rem;
+    top: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    position: fixed;
+    
+}
+.logo_text{
+    color:gold;
+    font-size: 1.3rem;
+    font-weight: 800;
+}
+.logo_para{
+    color:gold;
+    font-size: 1rem;
+}
+.order_button{
+    margin-left: 18rem;
+}
+
+.card-crosel{
+    left: -10.8rem;
+    height: 20rem;
+    color: #222;
+    background: #00000080;
+    animation-name: card-moves;
+    animation-duration: 2s;
+     position: relative;
+     border-radius: 10px;
+     animation-delay: 2s;
+     
+}
+.card-crosel_body{
+    background-image: url('../images/ornate-3068591_1280-removebg-preview.png');
+    background-position: center;
+    color: #fff;
+}
+@keyframes card-moves{
+    0%   { top:800px;}
+    25%  { top:500px;}
+    50%  { top:200px;}
+    75%  {top:100px;}
+    100% {top:0px;}
+}
+
+.card-crosel_body h2{
+    margin-top:5rem ;
+    color: gold;
+}
+.card-heading-ami{
+    top: -10rem;
+    left: -32rem;
+    animation-name: card-moves;
+    animation-duration: 2s;
+     position: relative;
+     border-radius: 10px;
+     animation-delay: 2s;
+
+}
+.side_bar{
+
+position: absolute;
+right: 0;
+top: 15rem;
+position: fixed;
+}
+.side_bar ul{
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+    background-color: #00000080;
+    color: #fff;
+    width: 5rem;
+    height: 9.8rem;
+}
+.side_bar ul li{
+   font-size: 1.5rem;
+}
+.photo_ourstory{
+  background: url('https://www.pindballuchi.com/images/about-bg.jpg');
+}
+.pic{
+    width: 85%;
+    margin: 0 auto;
+    margin-top: 2rem;
+    height: auto;
+    display: flex;
+  
+}
+.heading_pic {
+    padding-top: 2rem;
+    text-align: center;
+    font-family: 'Dancing Script', cursive;
+}
+.heading_pic h1{
+    font-size: 3rem;
+    font-weight: 800;
+}
+.pic_1{
+    width: 50%;
+    background-color:#fff;
+    height: auto;
+
+}
+.pic_1 img{
+    width: 100%;
+}
+.pic_2{
+    width: 50%;
+    background-color:#fce8f4;
+    height:auto;
+    padding: 0 1rem;
+
+}
+.pic_2 h1{
+    font-size: 3rem;
+    font-family: 'Dancing Script', cursive;
+    font-weight: 800;
+}
+.pic_2 p{
+    font-size: 1.2rem;
+}
+.season_items{
+    width: 85%;
+    margin: 0 auto;
+    margin-top: 2rem;
+    display: flex;
+    justify-content: space-evenly;
+    padding-bottom: 100px;
+}
+.season_item1{
+    background:url('../images/pomegranate-3977500_1920.jpg');
+    background-position: center;
+    background-size: cover;
+    height: 18rem;
+    width: 30%;
+}
+.season_item2{
+    background:url('../images/baked-crab-4543238_1280.jpg');
+    background-position: center;
+    background-size: cover;
+    height: 18rem;
+    width: 30%;
+   
+}
+.season_item3{
+    background:url('../images/food-3190257_1920.jpg');
+    background-position: center;
+    background-size: cover;
+    height: 18rem;
+    width: 30%;
+}
+.black-items{
+    width: 100%;
+    background:url('../images/black-1072366_1920.jpg');
+    height: auto;
+    padding-bottom:5rem;
+}
+.black_part_1 ,.black_part_2{
+    width: 50%;
+}
+.black_heading{
+color: #fff;
+font-family: 'Dancing Script', cursive;
+text-align: center;
+padding-top:2rem;
+}
+.black_inside{
+    width: 85%;
+    height: auto;
+    margin: 0 auto;
+    margin-top: 2rem;
+    display:flex;
+   
+}
+.black-wrap{
+ 
+    margin-top: 2rem;
+}
+.black_item-1{
+    background-color: #000;
+    width: 90%;
+    height: 100px;
+    border-top-left-radius:45%;
+    border-bottom-left-radius: 45%;
+    border-top-right-radius:10px;
+    border-bottom-right-radius: 10px;
+
+}
+
+.black_item_image{
+    width: 100%;
+    display:flex;
+    
+}
+.black_item_image img{
+    float: left;
+    border-radius: 50%;
+    width: 8rem;
+    height: 6rem;
+    border: 10px solid gray;
+}
+.black_item_image img:hover{
+    transform: rotateX(360);
+}
+.black_item_text h3{
+    color: #fff;
+    font-family: 'Dancing Script', cursive;
+    text-align: center;
+}
+.black_item_text p{
+    color: #fff;
+    padding-left: 1rem;
+}
+.image_gallery{
+    width: 100%;
+    background: url('https://www.pindballuchi.com/images/about-bg.jpg');
+    height: auto;
+padding-bottom: 5rem;
+}
+.inner_image_galery{
+    width: 85%;
+    height: auto;
+    margin: 0 auto;
+    margin-top:2rem;
+    display: flex;
+    
+}
+.inner_image_galery1{
+    margin-right: 1rem;
+    width: 70%;
+    height: auto;
+   
+}
+.inner_image_galery2{
+    width: 30%;
+    height: 510px;
+    background: url('../images/restaurant-449952_1920.jpg');
+    background-position: center;
+    background-size: cover;
+}
+.image_child-1{
+    width: 100%;
+    height: 250px;
+    background: url('../images/bar-918541_1920.jpg');
+    background-position: center;
+    background-size: cover;
+   
+    margin-bottom: 10px;
+}
+.image_child-2{
+    
+    width: 100%;
+    height: auto;
+ 
+    display: flex;
+}
+.image_sub_child-1{
+    
+    width: 50%;
+    height: 250px;
+    background: url('../images/dinner-table-444434_1920.jpg');
+    background-position: center;
+    background-size: cover;
+}
+.image_sub_child-2{
+    margin-left: 1rem;
+    width: 50%;
+    height: 250px;
+    background: url('../images/hotel-1191725_1920.jpg');
+    background-position: center;
+    background-size: cover;
+}
+.explore{
+    width: 100%;
+    background: #262626;
+    height: 300px;
+    opacity: 0.8;
+}
+.explore h1{
+    color: #fff;
+}
+.buttovdiv{
+    margin-top: 2rem;
+    text-align: center;
+}
+.explore button{
+    width: 150px;
+    background-color: chocolate;
+    color: #ffff;
+    border:0;
+  height:40px;
+
+}
+.container{
+    margin-top:5rem;
+    padding-bottom: 5rem;
+    
+}
+.img-text{
+    width: 100%;
+    height: 300px;
+    display: block;
+    text-align: center;
+    padding: 40% 5%;
+    background: #fff;
+    color:black;
+    border-radius: 15px;
+}
+.img-text h2{
+    font-size: 25px;
+    text-transform: capitalize;
+    letter-spacing: 2px;
+}
+.img-text p{
+    font-size: 14px;
+}
+.single-box{
+    position: relative;
+    margin-bottom: 30px;
+}
+.img-aera{
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    border: 5px solid #fff;
+    overflow: hidden;
+    top: 15px;
+    left: 150px;
+    border-radius: 50%;
+
+}
+.carousel-indicatorss button{ 
+
+background:#fff;
+border-radius: 50%;
+width: 15px;
+height: 15px;
+}
+.carousel-indicatorss .active{
+    background:black;
+}
+.map{
+    width: 100%;
+    height: auto;
+    display: flex;
+   margin-bottom: 2rem;
+}
+.contains-map{
+    width: 50%;
+    height: 400px;
+ 
+}
+.contains-address{
+    padding-top: 2rem;
+    width: 50%;
+    height: auto;
+    background-color:#262626;
+    color: #fff;
+}
+.contains-address h1{
+   margin-left: 2rem;
+    font-family:'Dancing Script', cursive; 
+    font-size: 3rem;
+    
+}
+
+.contains-address h4{
+   margin: 2rem 2rem;
+}
+.contains-address h4 i{
+   padding-right: 1rem;
+}
+.contains-address h3{
+    margin: 1rem 2rem;
+}
+.footer{
+    width: 100%;
+    height:auto;
+    background-color:#262626;
+}
+.footer_container{
+    padding-top: 5rem;
+    width: 85%;
+    height:auto;
+    /* background-color:green; */
+    margin: 0 auto;
+    display: flex;
+}
+.image_footer{
+        width: 25%;
+        height: 300px;
+        /* background-color: hotpink; */
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        color:gold;
+}
+.image_footer h6{
+    font-size: 2rem;
+    font-weight: 600;
+}
+
+.footer_list_1{
+    width: 25%;
+    height: auto;
+    /* background-color: teal; */
+    
+}
+.footer_list_1 li{
+    list-style: none;
+}
+.footer_list_1 li a{
+    text-decoration:none ;
+    color: darkgray;
+
+}
+.footer_list_1 li a:hover{
+    color: gold;
+}
+.footer_list_2 li{
+    list-style: none;
+}
+.footer_list_2 li a{
+    text-decoration:none ;
+    color: darkgray;
+
+}
+.footer_list_2 li a:hover{
+    color: gold;
+}
+.footer_list_3 li{
+    list-style: none;
+}
+.footer_list_3 li a{
+    text-decoration:none ;
+    color: darkgray;
+
+}
+.footer_list_3 li a:hover{
+    color: gold;
+}
+.footer_list_2{
+    width: 25%;
+    height: auto;
+    /* background-color:red; */
+}
+.footer_list_3{
+    width: 25%;
+    height: auto;
+    /* background-color:cyan; */
+}
+.footer_list_1,.footer_list_2,.footer_list_3{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #fff;
+}
+.copyright{
+    width: 85%;
+    margin: 0 auto;
+    color: #fff;
+    padding-top: 1rem;
+    padding-bottom: 3rem;
+}
+
+/* hamburger bar */
+
+#menu{
+    width: 35px;
+    height: 30px;
+    margin: 25px 0 0px 20px;
+    cursor: pointer;
+    float: right;
+   
+}
+.bar{
+    height: 5px;
+    width: 100%;
+    background-color:chocolate;
+    display: block;
+    border-radius: 5px;
+    transition: 0.2s ease;
+}
+/* three lines of hamburger bar */
+#bar1{
+    transform: translateY(-4px);
+}
+#bar3{
+    transform: translateY(4px);
+}
+.change .bar{
+    background-color:chocolate;
+}
+.change #bar1{
+    transform: translateY(4px) rotatez(-45deg);
+}
+.change #bar3{
+    transform: translateY(-6px) rotatez(45deg);
+}
+.change #bar2{
+    opacity:0;
+}
+#menu-bar{
+    padding-right: 20px;
+    display: none;
+    height: 60px;
+    width: 100vw;
+    background-color: gold;
+    float: right;
+    position: fixed;
+     top: 0;
+    display: none;
+    z-index: 10;
+    
+    
+}
+.nav li a{
+    color: chocolate;
+    text-decoration: none;
+}
+.nav li{
+
+    list-style: none;
+    padding: 10px;
+    font-size:25px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+
+}
+
+.nav{
+    height: 100vh;
+    transition: 0.2s ease;
+    display: none;
+    float: left;
+    width: 110%;
+    background-color:#fff;
+    z-index: 10;
+    padding-top: 5rem;
+    
+}
+.nav li a:hover{
+    font-weight: bolder;
+}
+ .change{
+    display: block;
+}
+
+.footer-form-toggle{
+    position: fixed;;
+    right: 30px;
+    bottom: 20px;
+    width: 60px;
+    height: 60px;
+    background-color: green;
+    border-radius:50%;
+    text-align:center;
+    cursor: pointer;
+}
+.footer-form-toggle .fa{
+    color:white;
+    font-size: 35px;
+    line-height: 55px;
+}
+@media only screen and (max-width:1100px){
+    #menu-bar{
+        display: block;
+    }
+        .navbar{
+            display: none;
+        }
+    }
+
+@media only screen and (max-width: 600px) {
+    .pic ,.season_items,.black_inside,.inner_image_galery,.image_child-2,.map,.footer_container{
+        flex-direction: column;
+    }
+    .pic_1 ,.pic_2,.season_item1,.season_item2,.season_item3,.black_item-1,.black_part_2,.black_part_1,.inner_image_galery1,.inner_image_galery2
+    ,.image_sub_child-1,.image_sub_child-2,.contains-map,.contains-address,.image_footer,.footer_list_1,.footer_list_2
+    ,.footer_list_3
+    {
+        width: 100%;
+    }
+    .season_item1,.season_item2,.season_item3,.image_sub_child-2,.inner_image_galery2{
+        margin-top: 1rem;
+    }
+    .black_item-1{
+     height: fit-content;
+     border-top-left-radius:0 ;
+    border-bottom-left-radius:0 ;
+    }
+    .black_item_image img{
+        border-radius: 0;
+        height: auto;
+    }
+    .image_sub_child-2{
+        margin-left: 0;}
+   .inner_image_galery2,.carousel-item{
+        height: 300px;
+    }
+    .explore{
+        height:200px;
+    }
+    .footer_list_3 li{
+margin-left: -5rem;
+    }
+    .footer_list_1 li{
+margin-left: -2rem;
+    }
+    .img-aera{
+        left: 38%;
+    }
+    .logo{
+        display: none;
+    }
+    .nav-div{
+        display: none;
+    }
+    .heading_pic h1{
+        font-size: 2rem;
+        font-weight: 500;
+    }
+
+
+}
+

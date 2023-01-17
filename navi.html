@@ -1,0 +1,322 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>tab-navi</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="navi_tab.css">
+</head>
+<body>
+    <div class="con">
+        <div class="con-1">
+          <div class="tabs">
+            <div class="ico">
+              <div class="tab-header">
+                <div class="active">
+    
+                  <i class="fa fa-building"></i> Hotels
+                </div>
+                <div>
+                  <i class="fa fa-plane"></i> Flights
+                </div>
+                <div>
+                  <i class="fa fa-car"></i> cars
+                </div>
+                <div>
+                  <i class="fa fa-gift"></i> Packages
+                </div>
+                <div>
+                  <i class="fa fa-camera"></i> Things to do
+                </div>
+                <div>
+                  <i class="fa fa-ship"></i> Crusies
+                </div>
+              </div>
+    
+              <div class="tab-indicator"></div>
+            </div>
+            <div class="tab-body">
+    
+              <div class="active">
+                <form style="margin-top: 20px;">
+                  <section class="section-1">
+                    <input type="text" class="form-control section-1_1" placeholder="Going to" aria-label="Username">
+    
+                    <section class="date">
+                      <input type="date" class="form-control section-1_3" placeholder="check in" aria-label="Username" >
+                      <input type="date" class="form-control section-1_3" placeholder="Check out" aria-label="Username">
+                    </section>
+    
+                    <input type="number" class="form-control section-1_2" placeholder="Travelers" aria-label="Username">
+                  </section>
+                  <section class="section-2">
+                    <input type="checkbox">
+                    <label for="checkbox"> Add a flight</label>
+                    <input type="checkbox" style="margin-left: 50px;">
+                    <label for="checkbox"> Add car</label>
+                  </section>
+                </form>
+                <section class="button_nav">
+
+                    <button type="button" class="btn btn-lg button-1">search</button>
+                </section>
+              </div>
+              <!-- plane on the navi -->
+              <div>
+                <section class="section-3">
+                  <section class="section-3_1">
+                    <section>
+                      <button type="button" class="btn btn-light" style="color: #0a438b;">Round trip</button>
+    
+                      <button type="button" class="btn btn-2">One way</button>
+                      <button type="button" class="btn btn-2">Multi-city</button>
+                   
+                    <!-- Example single danger button -->
+                    
+                     <section style="display: flex; float: right;">
+                      <button type="button" class="btn btn-drop dropdown-toggle" data-bs-toggle="dropdown"
+                        aria-expanded="false">
+                        Economy
+                      </button>
+                      <ul class="dropdown-menu">
+                        <li><a class="dropdown-item" href="#">Economy</a></li>
+                        <li><a class="dropdown-item" href="#">Prenium Economy</a></li>
+                        <li><a class="dropdown-item" href="#">Busniess class</a></li>
+                        <li><a class="dropdown-item" href="#">First Class</a></li>
+                      </ul>
+                      <!-- Example single danger button -->
+    
+                      <button type="button" class="btn btn-drop dropdown-toggle" data-bs-toggle="dropdown"
+                        aria-expanded="false">
+                        1 Traveler
+                      </button>
+                      <ul class="dropdown-menu">
+                        <li><a class="dropdown-item" href="#">Economy</a></li>
+                        <li><a class="dropdown-item" href="#">Prenium Economy</a></li>
+                        <li><a class="dropdown-item" href="#">Busniess class</a></li>
+                        <li><a class="dropdown-item" href="#">First Class</a></li>
+                      </ul>
+                    </section>
+                    </section>
+                  </section>
+                </section>
+    
+    
+                <form style="margin-top: 1rem;">
+                  <section class="section-1">
+                    <input type="text" class="form-control section-1_1 " placeholder="Leaving from" aria-label="Username"
+                    >
+                    <span class="input-group-text arrow">
+                      <i class="fa fa-arrows-h"></i>
+    
+                    </span>
+                    <input type="text" class="form-control fli-going" placeholder="Going to" aria-label="Username"
+                      >
+                      <section class="date">
+                    <input type="date" class="form-control section-1_3" placeholder="Check in" aria-label="Username"
+                     ">
+                    <input type="date" class="form-control section-1_3" placeholder="Check out" aria-label="Username"
+                      ">
+                  </section>
+                  </section>
+                  <section class="section-2">
+                    <input type="checkbox">
+                    <label for="checkbox"> Add a place to stay</label>
+                    <input type="checkbox" style="margin-left: 50px;">
+                    <label for="checkbox"> Add car</label>
+                  </section>
+                </form>
+                <section class="button_nav">
+                    <button type="button" class="btn btn-lg button-1"
+                     >search</button>
+                    </section>
+              </div>
+              <!-- car on the navi -->
+              <div>
+    
+                <section class="section-3">
+                  
+                  <button type="button" class="btn btn-light" style="color: #0a438b;">Rentels Cars</button>
+    
+                  <button type="button" class="btn btn-2">Airport Transportation</button>
+                </section>
+                <form style="margin-top: 20px;">
+                  <section class="section-1">
+                    <input type="text" class="form-control car-l" placeholder="Leaving from" aria-label="Username"
+                      >
+                      
+                    <input type="text" class="form-control car-g" placeholder="Going to" aria-label="Username"
+                      >
+                  </section>
+                  <section class="section-1 car-sec">
+                    <section class="car-date">
+                    <input type="date" class="form-control car-date-1" placeholder="Check in" aria-label="Username"
+                     >
+                    <input type="date" class="form-control car-date-1" placeholder="Check out" aria-label="Username"
+                      >
+                      </section>
+                      <section class="car-times">
+                    <input type="time" class="form-control car-date-1 car-date-1_1" placeholder="Check in" aria-label="Username"
+                      >
+                    <input type="time" class="form-control car-date-1" placeholder="Check out" aria-label="Username"
+                      ">
+                      </section>
+                  </section>
+                  <section class="section-2">
+                    <input type="checkbox">
+                    <label for="checkbox"> Include AARP members rate</label>
+                    </section>
+                    
+    
+              
+                    <section class="button_nav_1">
+    
+                      <button type="button" class="btn btn-lg button-1"
+                        >search</button>
+                    </section>
+                    </section>
+                </form>
+
+              </div>
+              <!-- Packages navi -->
+              <div>
+                <section class="section-3">
+                  <section class=" section-3_1_1" >
+                  
+                  <button type="button" class="btn btn-3">Hotel added</button>
+    
+                  <button type="button" class="btn btn-3">Flight add</button>
+                  <button type="button" class="btn btn-2" style="border-radius: 20px;">Add a car</button>
+                  
+    
+                  <!-- Example single danger button -->
+    
+                  <button type="button" class="btn btn-drop dropdown-toggle" data-bs-toggle="dropdown"
+                    aria-expanded="false">
+                    Economy
+                  </button>
+                  <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="#">Economy</a></li>
+                    <li><a class="dropdown-item" href="#">Prenium Economy</a></li>
+                    <li><a class="dropdown-item" href="#">Busniess class</a></li>
+                    <li><a class="dropdown-item" href="#">First Class</a></li>
+                  </ul>
+                  <!-- Example single danger button -->
+    
+                  <button type="button" class="btn btn-drop dropdown-toggle" data-bs-toggle="dropdown"
+                    aria-expanded="false">
+                    1room, 2travelers
+                  </button>
+                  <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="#">Economy</a></li>
+                    <li><a class="dropdown-item" href="#">Prenium Economy</a></li>
+                    <li><a class="dropdown-item" href="#">Busniess class</a></li>
+                    <li><a class="dropdown-item" href="#">First Class</a></li>
+                  </ul>
+                </section>
+                </section>
+    
+    
+                <form style="margin-top: 20px;">
+                  <section class="section-1">
+                    <input type="text" class="form-control section-1_1" placeholder="Leaving from" aria-label="Username"
+                      >
+                    <span class="input-group-text arrow" style="background-color: #fff;border-radius: 360px;">
+                      <i class="fa fa-arrows-h"></i>
+    
+                    </span>
+                    <input type="text" class="form-control fli-going" placeholder="Going to" aria-label="Username"
+                     >
+                     <section class="date">
+                    <input type="date" class="form-control date-pack" placeholder="Check in" aria-label="Username"
+                     >
+                    <input type="date" class="form-control date-pack" placeholder="Check out" aria-label="Username"
+                      >
+                      </section>
+                  </section>
+                  <section class="section-2">
+                    <input type="checkbox">
+                    <label for="checkbox">I only need accommodations for part of my trip</label>
+    
+                  </section>
+                </form>
+                <section class="button_nav">
+                  <button type="button" class="btn btn-lg button-1"
+                    >search</button>
+
+                </section>
+              </div>
+              <!-- things to do navi -->
+              <div>
+                <section class="section-1 " style="margin-top: 20px;">
+                  <input type="text" class="form-control section-1_2 navi-leaving" placeholder="Things to do in" aria-label="Username"
+                   >
+                  <section class="date">
+                  <input type="date" class="form-control navi-date" placeholder="Check in" aria-label="Username"
+                    >
+                  <input type="date" class="form-control navi-date" placeholder="Check out" aria-label="Username"
+                   >
+              </section>
+                </section>
+    
+                </form>
+                <section class="button_nav">
+
+                  <button type="button" class="btn btn-lg button-1"
+                   >search</button>
+                </section>
+              </div>
+              <!-- Cruises navi  -->
+              <div>
+                <form style="margin-top: 20px;">
+                  <section class="section-1">
+                    <input type="text" class="form-control section-1_2" placeholder="Leaving from" aria-label="Username"
+                      >
+                    <input type="text" class="form-control section-1_2" placeholder="Going to" aria-label="Username"
+                      >
+                  </section>
+                  <section class="section-1 " style="margin-top: 20px;">
+                    <input type="text" class="form-control section-1_2" placeholder="Leaving from" aria-label="Username"
+                      >
+                    <input type="text" class="form-control section-1_2" placeholder="Going to" aria-label="Username"
+                      >
+                  </section>
+    
+                </form>
+
+                <section class="button_nav">
+
+                  <button type="button" class="btn btn-lg button-1"
+                   >search</button>
+                </section>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+</body>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0"
+    crossorigin="anonymous"></script>
+  <script>let tabHeader = document.getElementsByClassName("tab-header")[0];
+    let tabIndicator = document.getElementsByClassName("tab-indicator")[0];
+    let tabBody = document.getElementsByClassName("tab-body")[0];
+
+    let tabsPane = tabHeader.getElementsByTagName("div");
+
+    for (let i = 0; i < tabsPane.length; i++) {
+      tabsPane[i].addEventListener("click", function () {
+        tabHeader.getElementsByClassName("active")[0].classList.remove("active");
+        tabsPane[i].classList.add("active");
+        tabBody.getElementsByClassName("active")[0].classList.remove("active");
+        tabBody.getElementsByTagName("div")[i].classList.add("active");
+
+        tabIndicator.style.left = `calc(calc(100% / 6) * ${i})`;
+      });
+    }
+
+  </script>
+</html>

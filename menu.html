@@ -1,0 +1,591 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./css/menu.css">
+
+  <title>Our menu</title>
+</head>
+
+<body>
+  <div id="menu-bar">
+
+    <div id="menu" onclick="onclickmenu()">
+      <div id="bar1" class="bar"></div>
+      <div id="bar2" class="bar"></div>
+      <div id="bar3" class="bar"></div>
+    </div>
+    <div id="logo"><img src="gr.1.jpg" alt=""></div>
+    <ul class="navigation" id="nav">
+      <li><a href="index.html" target=" blank">Home </a></li>
+      <li> <a href="menu.html" target="blank"> Our Menu</a></li>
+
+      <li> <a href="franchise.html" target="blank"> Franchise Enquiry </a> </li>
+
+      <li> <a href="presense.html" target=" blank"> Our Presence </a></li>
+      <li> <a href="Contact.html" target=" blank"> Contact Us </a></li>
+      <li> <a href="login.html" target=" blank"> Sign in </a></li>
+      <li> <a href="Contact.html" target=" blank"> Order Online </a></li>
+
+    </ul>
+  </div>
+
+
+
+  <div class="container-fluid logo">
+    <a class="navbar-brand" href="#">
+      <img src="./images/lion-159027_1280.png" alt="" width="100" height="80" class="d-inline-block align-text-top">
+    </a>
+    <span class="logo_text"> Dining Delight</span>
+    <p class="logo_para">True Flavour of India</p>
+  </div>
+
+  <div class="menu_photo">
+
+  </div>
+
+
+
+  <nav class="navbar navbar-expand-lg navbar-dark nav-div ">
+    <div class="container-fluid nav-bar">
+
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active nav_element" aria-current="page" href="index.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link nav_element" href="menu.html">Our Menu</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link nav_element" href="franchise.html">Franchise Enquiry</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link nav_element" href="presense.html">Our Presence</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link nav_element" href="Contact.html">Contact Us</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link nav_element" href="login.html">Log in</a>
+          </li>
+
+          <button class="btn btn-outline-warning order_button">Order online</button>
+        </ul>
+
+      </div>
+    </div>
+  </nav>
+
+
+
+  <ul class="nav nav-pills mb-3" id="pills-tab" role="tablist">
+    <li class="nav-item" role="presentation">
+      <button class="nav-link active" id="pills-home-tab" data-bs-toggle="pill" data-bs-target="#pills-home"
+        type="button" role="tab" aria-controls="pills-home" aria-selected="true">Shuruaat</button>
+    </li>
+    <li class="nav-item" role="presentation">
+      <button class="nav-link" id="pills-profile-tab" data-bs-toggle="pill" data-bs-target="#pills-profile"
+        type="button" role="tab" aria-controls="pills-profile" aria-selected="false">Shorba</button>
+    </li>
+    <li class="nav-item" role="presentation">
+      <button class="nav-link" id="pills-contact-tab" data-bs-toggle="pill" data-bs-target="#pills-contact"
+        type="button" role="tab" aria-controls="pills-contact" aria-selected="false">Vegetarian</button>
+    </li>
+    <li class="nav-item" role="presentation">
+      <button class="nav-link" id="pills-contact-tab" data-bs-toggle="pill" data-bs-target="#pills-nonveg" type="button"
+        role="tab" aria-controls="pills-contact" aria-selected="false">Non-Vegetarian</button>
+    </li>
+    <li class="nav-item" role="presentation">
+      <button class="nav-link" id="pills-contact-tab" data-bs-toggle="pill" data-bs-target="#pills-daal" type="button"
+        role="tab" aria-controls="pills-contact" aria-selected="false">Dal Te Subzian</button>
+    </li>
+    <li class="nav-item" role="presentation">
+    <button class="nav-link" id="pills-contact-tab" data-bs-toggle="pill" data-bs-target="#pills-murgh" type="button"
+        role="tab" aria-controls="pills-contact" aria-selected="false">Murgh Te Meat</button>
+    </li> 
+    <li class="nav-item" role="presentation">
+    <button class="nav-link" id="pills-contact-tab" data-bs-toggle="pill" data-bs-target="#pills-roti" type="button"
+        role="tab" aria-controls="pills-contact" aria-selected="false">Rotiyaan</button>
+    </li> 
+    <li class="nav-item" role="presentation">
+    <button class="nav-link" id="pills-contact-tab" data-bs-toggle="pill" data-bs-target="#pills-paratha" type="button"
+        role="tab" aria-controls="pills-contact" aria-selected="false">Paratha</button>
+    </li> 
+    <li class="nav-item" role="presentation">
+    <button class="nav-link" id="pills-contact-tab" data-bs-toggle="pill" data-bs-target="#pills-rice" type="button"
+        role="tab" aria-controls="pills-contact" aria-selected="false">Rice</button>
+    </li> 
+    <li class="nav-item" role="presentation">
+    <button class="nav-link" id="pills-contact-tab" data-bs-toggle="pill" data-bs-target="#pills-salad" type="button"
+        role="tab" aria-controls="pills-contact" aria-selected="false">Accompaniments</button>
+    </li> 
+    <li class="nav-item" role="presentation">
+    <button class="nav-link" id="pills-contact-tab" data-bs-toggle="pill" data-bs-target="#pills-raita" type="button"
+        role="tab" aria-controls="pills-contact" aria-selected="false">Raita</button>
+    </li> 
+    <li class="nav-item" role="presentation">
+    <button class="nav-link" id="pills-contact-tab" data-bs-toggle="pill" data-bs-target="#pills-dessert" type="button"
+        role="tab" aria-controls="pills-contact" aria-selected="false">Desserts</button>
+    </li> 
+     
+  </ul>
+
+
+  <div class="tab-content" id="pills-tabContent">
+    <div class="tab-pane fade show active" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab"
+      style="width: 100%; height:auto; background:url('https://www.pindballuchi.com/images/about-bg.jpg')">
+      <div class="menu_content">
+        <div class="menu_pic">
+          <img src="./images/food-3190257_1920.jpg" alt="">
+        </div>
+        <div class="menu_maincontent">
+          <div class="heading_menu">
+            <h1>Shuruaat</h1>
+          </div>
+          <ul>
+            <li>Mineral Water</li>
+            <li> Fresh Lime Soda</li>
+            <li>
+              Bunta Soda
+            </li>
+            <li>
+              Aerated Beverages
+            </li>
+            <li>
+              Lassi Man Pasand (Sweet/Jeera/Mango)
+            </li>
+            <li> Iced Tea </li>
+            <li> Jal Jeera </li>
+            <li> Chhach</li>
+            <li>Aam Ka Panna</li>
+            <li> Ananas Ka Panna</li>
+            <li>Ice tea</li>
+            <li>Juices</li>
+            <li>Diet Pepsi</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="tab-pane fade" id="pills-profile" role="tabpanel" aria-labelledby="pills-profile-tab"
+      style="width: 100%; height:auto; background:url('https://www.pindballuchi.com/images/about-bg.jpg')">
+      <div class="menu_content">
+        <div class="menu_pic">
+          <img src="./images/potato-soup-2152265_1920.jpg" alt="">
+        </div>
+        <div class="menu_maincontent">
+          <div class="heading_menu">
+            <h1>Shorba</h1>
+          </div>
+          <ul>
+            <li>Tamatar Dhaniya Shorba</li>
+            <li> Dal Shorba</li>
+            <li> Subz Shorbaa</li>
+            <li>Murgh Badami Shorba</li>
+          </ul>
+        </div>
+      </div>
+
+
+    </div>
+    <div class="tab-pane fade" id="pills-contact" role="tabpanel" aria-labelledby="pills-contact-tab"
+      style="width: 100%; height:auto; background:url('https://www.pindballuchi.com/images/about-bg.jpg')">
+      <div class="menu_content">
+        <div class="menu_pic">
+          <img src="./images/dish-4943028_1920.jpg" alt="">
+        </div>
+        <div class="menu_maincontent">
+          <div class="heading_menu">
+            <h1>Vegetarian</h1>
+          </div>
+          <ul>
+            <li>Makki De Kebab</li>
+            <li> Achari Malai Soya </li>
+            <li> Adraki Sabudane Ke Tikki</li>
+            <li>
+              Tandoori Aloo
+            </li>
+            <li>
+              Hara Bhara Kebab
+            </li>
+            <li>
+              Karari Soya Chaap
+            </li>
+            <li>
+              Chatpate Tawa Mushrooms
+            </li>
+            <li>
+              Bharwan Soya Tandoori
+            </li>
+            <li>
+
+              Dahi De Kebab
+            </li>
+            <li>
+              Mushroom Kurkure
+            </li>
+            <li>
+              Balluchi Mawe Ki Seekh
+            </li>
+            <li>
+              Spice Golden Paneer Fingers
+            </li>
+            <li>
+
+              Veg Kebab Platter</li>
+
+          </ul>
+        </div>
+
+      </div>
+    </div>
+    <div class="tab-pane fade" id="pills-nonveg" role="tabpanel" aria-labelledby="pills-contact-tab"
+      style="width: 100%; height:auto; background:url('https://www.pindballuchi.com/images/about-bg.jpg')">
+      <div class="menu_content">
+        <div class="menu_pic">
+          <img src="./images/food-712665_1920.jpg" alt="">
+        </div>
+        <div class="menu_maincontent">
+          <div class="heading_menu">
+            <h1>Non-Vegetarian</h1>
+          </div>
+          <ul>
+            <li>Lehsooni Tangri
+            </li>
+            <li>
+              Kalmi Kebab
+            </li>
+            <li>
+              Murgh Tikka
+            </li>
+            <li>
+              Gilafi Chicken Seekh
+            </li>
+            <li>
+              Murg shammi Kebab
+            </li>
+            <li>
+              Murg Malai Tikka
+            </li>
+            <li>
+              Murgh Haryali Tikka
+            </li>
+            <li>
+              Lahori Murgh
+            </li>
+            <li>
+              Afghani Chicken
+            </li>
+            <li>
+              Tandoori Chicken
+            </li>
+            <li>
+              Pind spl. Crispy Chicken Tangri
+            </li>
+            <li>
+              Mutton Seekh Kebab
+            </li>
+            <li>
+              Mutton Tawa Tak-a-tak
+            </li>
+            <li>
+              Fish Amritsari
+            </li>
+            <li>
+              Fish Tikka Ajwaini
+            </li>
+            <li>
+              Non Veg Kebab Platter
+            </li>
+            <li>
+              Prawns Tawa Tak-a-tak
+            </li>
+            <li>
+              Golden Fried Prawns
+            </li>
+            <li>
+              Jalandhari Raan</li>
+          </ul>
+        </div>
+
+      </div>
+    </div>
+    <div class="tab-pane fade" id="pills-daal" role="tabpanel" aria-labelledby="pills-contact-tab"
+      style="width: 100%; height:auto; background:url('https://www.pindballuchi.com/images/about-bg.jpg')">
+      <div class="menu_content">
+        <div class="menu_pic">
+          <img src="./images/veg-dal-makhani-500x500.png" alt="">
+        </div>
+        <div class="menu_maincontent">
+          <div class="heading_menu">
+            <h1>Dal Te Subzian</h1>
+          </div>
+          <ul>
+           <li>Dal Tadka</li>
+            <li>    Dal Balluchi</li>
+           <li>     Heeng Dhaniya Ke Aloo</li>
+            <li>    Amritsari Aloo Wadiyan</li>
+            <li>    Palak Wali Kadhi Pakodi</li>
+            <li>    Mixed Vegetable</li>
+            <li>    Chatpate Tariwale Dum Aloo</li>
+            <li>    Aaj Ki Subzi</li>
+            <li>    Anari Pindi Chole</li>
+            <li>    Soya Chaap Masala</li>
+            <li>    Sarson Ka Saag (Seasonal)</li>
+            <li>    Palak Corn</li>
+            <li>    Palak Paneer</li>
+            <li>    Paneer Hara Pyaaz Lababdar</li>
+            <li>    Paneer Makhani/P.Butter Masala/Shahi Paneer</li>
+            <li>    Kadhai Paneer</li>
+            <li>   Elaichi Malai Kofta</li>
+            <li>    Khumb Pyaaz Bhujia</li>
+            <li>    Corn Capsicum Masala</li>
+            <li>    Baby Corn Mushroom Masala</li>
+            <li>    Shabnam Curry</li>
+          </ul>
+        </div>
+
+      </div>
+    </div>
+    <div class="tab-pane fade" id="pills-murgh" role="tabpanel" aria-labelledby="pills-contact-tab"
+    style="width: 100%; height:auto; background:url('https://www.pindballuchi.com/images/about-bg.jpg')">
+    <div class="menu_content">
+      <div class="menu_pic">
+        <img src="./images/chicken-2451482_1920.jpg" alt="">
+      </div>
+      <div class="menu_maincontent">
+        <div class="heading_menu">
+          <h1>Murgh Te Meat</h1>
+        </div>
+        <ul>
+         <li> Pind Special Cream Chicken</li>
+         <li> Murg Methi Malai</li>
+         <li> Murg Makhani</li>
+         <li> Chicken Tikka Masala</li>
+         <li> Dhaniya Murg Curry</li>
+         <li> Murg Saagwala</li>
+         <li> Kadhai Chicken
+         <li> Murg Rahra
+         <li> Bhuna </li>
+         <li> Pind Dhaba Meat
+         <li> Bhuna </li>
+         <li> Mutton Saagwala
+         <li> Mutton Shahi </li>
+         <li> Punjabi Fish Curry</li>
+         <li> Jheenga Curry</li>
+        </ul>
+      </div>
+
+    </div>
+  </div>
+    <div class="tab-pane fade" id="pills-roti" role="tabpanel" aria-labelledby="pills-contact-tab"
+    style="width: 100%; height:auto; background:url('https://www.pindballuchi.com/images/about-bg.jpg')">
+    <div class="menu_content">
+      <div class="menu_pic">
+        <img src="./images/naan-5154130_1920.jpg" alt="">
+      </div>
+      <div class="menu_maincontent">
+        <div class="heading_menu">
+          <h1>Rotiyaan</h1>
+        </div>
+        <ul>
+          <li>    Tandoori Roti</li>
+          <li>    Butter Roti</li>
+          <li>    Hari Mirch/Lal Mirchi Ki Roti</li>
+          <li>    Roomali Roti</li>
+          <li>    Missi Roti</li>
+          <li>    Khasta Roti</li>
+         <li>     Makki Di Roti (Seasonal)</li>
+          <li>    Naan</li>
+          <li>    Butter Naan</li>
+          <li>    Lachha Paratha</li>
+          <li>    Pudina Paratha</li>
+          <li>    Ajwaini/Hari Mirch/Lal Mirch Ka Paratha
+          <li>    Garlic Naan</li>
+         <li>     Warqi </li>
+         <li>     Amritsari Kulcha</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+  <div class="tab-pane fade" id="pills-paratha" role="tabpanel" aria-labelledby="pills-contact-tab"
+  style="width: 100%; height:auto; background:url('https://www.pindballuchi.com/images/about-bg.jpg')">
+  <div class="menu_content">
+    <div class="menu_pic">
+      <img src="./images/chapati-489254_1920.jpg" alt="">
+    </div>
+    <div class="menu_maincontent">
+      <div class="heading_menu">
+        <h1>Tawa Te Tandoori Paratha</h1>
+      </div>
+      <ul>
+        <li> Aloo Pyaaz Paratha</li>
+         <li>    Gobhi Paratha</li>
+         <li>    Paneer </li>
+         <li>    Chicken Paratha</li>
+         <li>    Mutton Paratha</li>
+       
+      </ul>
+    </div>
+  </div>
+</div>
+  <div class="tab-pane fade" id="pills-rice" role="tabpanel" aria-labelledby="pills-contact-tab"
+  style="width: 100%; height:auto; background:url('https://www.pindballuchi.com/images/about-bg.jpg')">
+  <div class="menu_content">
+    <div class="menu_pic">
+      <img src="./images/fried-rice-3023040_1920.jpg" alt="">
+    </div>
+    <div class="menu_maincontent">
+      <div class="heading_menu">
+        <h1>Khushbu-E-Basmati </h1>
+      </div>
+      <ul>
+        <li>   Plain Rice</li>
+        <li>   Peas Pulao / Veg Pulao</li>
+        <li>   Jeera Rice</li>
+        <li>   Subz Biryani</li>
+        <li>   Chicken Biryani</li>
+        <li>   Mutton Biryani</li>
+        <li>   Fish Tikka Biryani</li>
+        <li>   Prawns Biryani</li>
+      </ul>
+    </div>
+  </div>
+</div>
+  <div class="tab-pane fade" id="pills-salad" role="tabpanel" aria-labelledby="pills-contact-tab"
+  style="width: 100%; height:auto; background:url('https://www.pindballuchi.com/images/about-bg.jpg')">
+  <div class="menu_content">
+    <div class="menu_pic">
+      <img src="./images/salad-791891_1920.jpg" alt="">
+    </div>
+    <div class="menu_maincontent">
+      <div class="heading_menu">
+        <h1>Accompaniments </h1>
+      </div>
+      <ul>
+        <li> Papad</li>
+       <li>  Masala Papad</li>
+        <li> Green Salad</li>
+        <li> Til Aloo ki Chaat</li>
+       <li>  Chatpati Moongfali</li>
+      </ul>
+    </div>
+  </div>
+</div>
+  <div class="tab-pane fade" id="pills-raita" role="tabpanel" aria-labelledby="pills-contact-tab"
+  style="width: 100%; height:auto; background:url('https://www.pindballuchi.com/images/about-bg.jpg')">
+  <div class="menu_content">
+    <div class="menu_pic">
+      <img src="./images/food-2362686_1920.jpg" alt="">
+    </div>
+    <div class="menu_maincontent">
+      <div class="heading_menu">
+        <h1>Raita </h1>
+      </div>
+      <ul>
+       <li> Boondi Raita</li>
+       <li> Mix Veg Raita</li>
+       <li> Pineapple Raita</li>
+       <li> Dahi Saunth Ki Papdi</li>
+      </ul>
+    </div>
+  </div>
+</div>
+  <div class="tab-pane fade" id="pills-dessert" role="tabpanel" aria-labelledby="pills-contact-tab"
+  style="width: 100%; height:auto; background:url('https://www.pindballuchi.com/images/about-bg.jpg')">
+  <div class="menu_content">
+    <div class="menu_pic">
+      <img src="./images/indian-sweet-371357_1920.jpg" alt="">
+    </div>
+    <div class="menu_maincontent">
+      <div class="heading_menu">
+        <h1>Desserts </h1>
+      </div>
+      <ul>
+       <li>   Tilla Kulfi</li>
+      <li>    Gulab Jamun</li>
+       <li>   Thandi Kheer</li>
+       <li>   Matka </li>
+       <li>   Rasmalai</li>
+       <li>   Chocolate Kulfi</li>
+     <li>     Coconut & Mix Fruit Kulfi</li>
+        <li>  Gajar Ka Halwa (Seasonal)</li>
+      </ul>
+    </div>
+  </div>
+</div>
+
+
+    <div class="footer">
+      <div class="footer_container">
+
+        <div class="image_footer">
+          <img src="./images/lion-159027_1280.png" width="60%" height="60%" alt="">
+          <h6>Dining Delight</h6>
+          <p> True Flavour of India</p>
+        </div>
+        <div class="footer_list_1">
+          <h3>
+            OUR SERVICES
+          </h3>
+          <ul>
+            <li><a href="">About us </a></li>
+            <li><a href="">Our Menu</a></li>
+            <li><a href="">Franchise Query</a></li>
+            <li><a href="">Media</a></li>
+            <li><a href="">Career</a></li>
+            <li><a href="">Contact us</a></li>
+          </ul>
+        </div>
+        <div class="footer_list_2">
+          <h3>
+            USEFUL LINKS
+          </h3>
+          <ul>
+            <li><a href="">Policies </a></li>
+            <li><a href="">Terms and Conditions</a></li>
+            <li><a href="">Disclaimer</a></li>
+
+          </ul>
+        </div>
+        <div class="footer_list_3">
+          <h3>
+            FOLLOW US
+          </h3>
+          <ul>
+            <li><a href="">Facebook </a></li>
+            <li><a href="">Twitter</a></li>
+            <li><a href="">Instagram</a></li>
+
+          </ul>
+        </div>
+
+      </div>
+      <hr style="color: beige; width: 85%; margin: 0 auto;">
+      <h6 class="copyright">&#169; 2021. Designed by Sujoy gaur</h6>
+    </div>
+
+    <div class="footer-form-toggle">
+      <a href="https://wa.me/7351616032" target="blank"> <i class="fa fa-whatsapp"></i> </a>
+
+    </div>
+</body>
+<script>function onclickmenu() {
+    document.getElementById("menu").classList.toggle("change");
+    document.getElementById("nav").classList.toggle("change");
+    // document.getElementsById("menu-bg").classList.toggle("change-bg");
+
+  }</script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js"
+  integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
+
+</html>
